@@ -157,5 +157,15 @@ gradle-app.setting
 bin/
 imgui.ini
 
+#FRC build related folders
+
+.vscode/
+.wpilib/
+build.gradle
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
+vendordeps/
 
 # End of https://www.gitignore.io/api/c++,java,linux,macos,gradle,windows,visualstudiocode

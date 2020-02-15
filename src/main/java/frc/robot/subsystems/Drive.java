@@ -102,7 +102,7 @@ public class Drive extends SubsystemBase {
   public boolean wheelmove(){
    double enc1 =  talonSRX3.getSelectedSensorVelocity();
    double enc2 = talonSRX4.getSelectedSensorVelocity();
-    if ((enc1 < 1 && enc1 > -1) && (enc2 < 1 && enc2 > -1 ){
+    if ((enc1 < 1 && enc1 > -1) && (enc2 < 1 && enc2 > -1 )){
       return false;
     }else{
       return true;
